@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.container {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.flex-item {
+    margin: 2rem;
+}
+
+#state {
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
